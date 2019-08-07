@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<style>
+th,td{width: 100px;height: 25px;text-align: left}
+</style>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+
+<!--本例中 web3.min.0.19.0.js 这个版本才能成功-->
+<script type="text/javascript" src="web3.min.0.19.0.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="truffle-contract.js"></script>
+<!---
+   特别注意:
+   这里使用的web3.min.js 和  truffle-contract.js 应该存在版本一致的问题。这里用的是web3@0.19.0是可以的。但其他版本就不一定
+   truffle-contract.js 要放在app.js 后面加载，因为用到了app.js 中定义的Web3变量 
+-->
+
+</head>
+
+<body>
+    <h1>Truffle first Dapp Demo: Voting</h1>
+    <h2 id="tip"></h2>
+    <table id="vote">
+        <tr>
+            <th>姓名</th>
+            <th>票数</th>
+            <th>操作</th>
+        </tr>
+        
+    </table>
+    
+   <div style="margin-top: 30px"> <a href="">开发实现详情</a></div>
+</body>
+
+</html>
