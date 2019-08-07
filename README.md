@@ -39,7 +39,7 @@ cd Voting && truffle compile
 ### 6,部署前的配置
 - 打开ganache软件界面版
 如图：软件自动生成了10个账户和对应的rpc地址和端口
-
+https://jangozw.github.io/images/pasted-50.png
 ![upload successful](/images/pasted-50.png)
 
 - 在Voting/truffle.config.js（truffle自动生成的）里面修改监听的url和端口，这个是ganache中给的
@@ -80,4 +80,6 @@ $ npm run dev
 
 如有疑问多看代码，代码很少，注释很多，本篇只梳理开发流程。
 至此一个简单的以太坊dapp在测试环境开发完成。
+
+
 
