@@ -3278,12 +3278,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xD23B8796eBF1250d22d1261D4156627A7032A45f",
-      "transactionHash": "0xe8c1baf544f2d692962a4e349fa17505a5e62de9230cd9f2fd4ad36e0aaf6de0"
+      "address": "0x9a1dCfb5A64978aE4149eA33296cFB942F7256cF",
+      "transactionHash": "0x2cecf2a04eeb6d9cb5d4ca37294785856c7bea463c945f73be6c8cfd4dbb9cdc"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-08-07T02:52:48.527Z",
+  "updatedAt": "2019-08-07T07:16:49.024Z",
   "devdoc": {
     "details": "Math operations with safety checks that revert on error",
     "methods": {},

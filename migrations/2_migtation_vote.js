@@ -14,6 +14,7 @@ module.exports = function(deployer) {
 	];
 	deployer.deploy(safemath);
 	deployer.link(safemath, voting);
+	// pa 参数是传给Voting 合约的构造函数的
 	deployer.deploy(voting, pa);
 };
 
